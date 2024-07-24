@@ -2,10 +2,16 @@
 
 let num=0;
 
-num = parseInt(prompt("Digite un Numero"));
+num=prompt("Digite Un  Numero:");
 
-for(let i=1;i<=num;i++){
-    if(num % 10 == 5){
-        alert("Multiplos: "+i);
+if(num>4){
+   
+    for(var i=1;i<=num;i++){
+        
+        if(i % 5 === 0){
+            alert("Multiplos: "+i);
+        }
     }
+}else{
+    alert("El Numero Ingresado No tiene Multiplos de 5 ")
 }
