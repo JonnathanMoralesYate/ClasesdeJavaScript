@@ -4,8 +4,11 @@ let num=0;
 
 num = parseInt(prompt("Digite un Numero"));
 
-for(let i=1;i<=num;i++){
-    if(num % 10 == 5){
-        alert("Multiplos: "+i);
+for(let i=0; i<=num; i++){
+    if(i == 0){
+        alert("Multiplos de Cinco : "+1+" del numero: "+num)
+    }else if(num % 5 == 0){
+        alert("Multiplos de Cinco : "+i+" del numero: "+num);
+        
     }
 }
