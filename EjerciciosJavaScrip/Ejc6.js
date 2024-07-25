@@ -1,7 +1,6 @@
 /* 6. Leer números hasta que digiten 0 y determinar a cuanto es igual el promedio entero de los números primos leídos.*/
 
 let num;
-//let i=1;
 let j=1;
 let k=0;
 let cont=0;
@@ -28,7 +27,7 @@ do{
 
     if(cont == 2){
         //alert("El Numero: "+num+ " es Primo");  
-        suma+=suma + num;
+        suma=suma + num;
         alert("suma:"+suma);
         k++;
         alert("k:"+k)
