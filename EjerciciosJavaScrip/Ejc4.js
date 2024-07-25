@@ -1,15 +1,14 @@
 /* 4. Leer un número entero y determinar a cuánto es igual a la suma de sus dígitos.*/
-
+// toString() Convierte un numero entero en cadena
+//parseInt() Converte un carácter a un número entero  
 let num;
-let cont=0;
+let sum=0;
 
-num = parseInt(prompt("Digite Un numero"));
 
-while(num>0){
+num = prompt("Digite Un numero");
+toString(num)
 
-    num = Math.trunc(num/10); //funcion math.trunc obtine la division entera
-    cont++;
-    alert(+Math.trunc(num/10))
-
+for(var i=0; i< num.length; i++){
+    sum+= parseInt(+num[i]);
 }
-alert("El numero Tiene: "+cont+" Digitos");
+alert(+num+" La suma de sus digitos: "+sum)
