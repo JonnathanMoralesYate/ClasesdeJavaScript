@@ -61,3 +61,11 @@ function mostrar(){
         parrafos[i].textContent = "Texto Cambio"; //textContent para cambiar contenido
     }
  }
+
+ //Manipular etiqueta, clase y id en general
+ function estilo1() {
+    let elementos = document.querySelector("h3"); 
+    //for(var i = 0; i < elementos.Length; i++){
+    elementos.style.background = "red";
+ //}
+ }
